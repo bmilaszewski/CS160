@@ -1,0 +1,5 @@
+CamelCase Time Complexity:
+The time complexity of CamelCase is O(n) because there is a single loop iterating through string S of length n.
+
+CamelCase Space Complexity:
+The space complexity of CamelCase is also O(n) where n is the length of string S because it is the only major variable being used in the code.  The integer variables are not prominent enough to change the space complexity.
