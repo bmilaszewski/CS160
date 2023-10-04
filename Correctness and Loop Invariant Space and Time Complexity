@@ -1,0 +1,4 @@
+The time complexity of Correctness and Loop Invariant is O(n) in a case where the loop is already sorted, because it just needs to iterate one time.  In a case where it is unsorted, the time complexity would be O(n^2)
+
+
+The space complexity of Correctness and Loop Invariant is O(1) because there is always a constant amount of additional space being used for things like 'j' and 'value'.
