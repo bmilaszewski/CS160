@@ -1,0 +1,3 @@
+The time complexity of Plus Minus is O(n) because there is a for loop iterating every index.
+
+The space complexity of Plus Minus is O(1) because even with the variables added, they are not dependant on the array.
