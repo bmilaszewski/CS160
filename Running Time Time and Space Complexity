@@ -1,0 +1,3 @@
+The time complexity of my Running Time program is O(n^2) because there are two nested loops that each need to be iterated through n times
+
+The space complexity of my Running Time program is O(1) because all of the integer variables added are fixed.
