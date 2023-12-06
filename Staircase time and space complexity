@@ -1,0 +1,3 @@
+The time complexity of the staircase function is O(n^2) because there are two for loops that have constant time operations.
+
+The overall space complexity of the staircase function is O(1) because there is no extra space added that grows with n.
