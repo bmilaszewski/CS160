@@ -1,0 +1,12 @@
+The time complexity of AlternatingCharacters is O(n) because in the worst case scenario of recursion, it has to iterate through an entire string of length n.
+
+The space complexity of AlternatingCharacters is also O(n) because in each recursive call, O(n) amount is space is being used where n is the length of each substring.
+
+The recursive definition is as follows:
+
+Base Case:
+if the length of the string is 0 or 1, return 0.
+
+Recursive Case:
+if the length exceeds 1, firstChar is the first character of s, and i becomes the index of the first character after firstChar that is not the same as firstChar. newString then becomes a substring of s from index i.
+the code then recurses itself on the newString.
