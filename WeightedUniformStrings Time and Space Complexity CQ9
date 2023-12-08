@@ -1,0 +1,3 @@
+The time complexity of the Weighted Uniform Strings function is O(n + q) where n is the length of input string s and q is the length of the queries list. Iterating through the string is O(n) and iterating through the list is O(q) so overall the time complexity is O(n + q).
+
+The space complexity of the Weighted Uniform Strings function is O(1 + q) because the HashSet, weights, is calculated from string s, being at worst O(26), for all the letters in the alphabet, which is simplified to O(1).  The results list is requires O(q) space where q is the size of the list, so the overall space complexity is O(1 + q).
