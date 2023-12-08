@@ -1,0 +1,3 @@
+The time complexity of the Mini-Max Sum function is O(n log n) due to the Collections.sort method where n is the length of the array. The loop demonstrates an O(n) time complexity meaning the overall time complexity is O(n log n)
+
+The space complexity of the Mini-Max Sum function is O(n) because none of the 'long' variables are adding input size. So the overall space complexity is O(n).
